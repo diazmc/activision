@@ -122,6 +122,7 @@
   }
   .content p {
     font-size: 24px;
+    width: 80%;
   }
   button {
     font-size: 16px;
