@@ -64,6 +64,43 @@
   cursor: pointer;
 }
 
+.close {
+  position: absolute;
+  top: -1%;
+  right: -1%;
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.close span {
+  position: relative;
+  display: block;
+}
+
+.close span::after {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  content: '';
+  background: #fff;
+  width: 80%;
+  height: 2px;
+}
+
+.close span:first-child::after {
+  transform: rotate(45deg);
+}
+
+.close span:last-child::after {
+  transform: rotate(-45deg);
+}
+
 .modal {
   position: absolute;
   top: 0;

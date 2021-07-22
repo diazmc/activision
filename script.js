@@ -12,8 +12,8 @@ $(document).ready(function() {
     }
   })
 
-  $('.modal').click(function() {
-    $(this).removeClass('active');
+  $('.close').click(function() {
+    $('.modal').removeClass('active');
     $('.video').attr('src', '');
   })
 })
