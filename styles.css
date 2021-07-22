@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 * {
   margin: 0;
@@ -54,7 +54,10 @@
   font-size: 18px;
   font-weight: 400;
   border: 2px solid #fff;
-  background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(233,233,233,1) 50%, rgba(226,226,226,1) 100%);
+  color: #444444;
+  font-weight: 500;
+  background: linear-gradient(0deg, rgba(175,172,172,1) 0%, rgba(233,233,233,1) 50%, rgba(175,172,172,1) 100%);
+
 }
 
 .cta:hover {
